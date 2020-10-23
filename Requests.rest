@@ -1,0 +1,18 @@
+# utiliser l'extension VSCode https://marketplace.visualstudio.com/items?itemName=humao.rest-client
+GET http://127.0.0.1:3000 HTTP/1.1
+content-type: application/json
+
+### 
+GET http://127.0.0.1:3000/aSync?toto=toto%20is%20here&age=42 HTTP/1.1
+content-type: application/json
+
+
+###
+
+POST http://127.0.0.1:3000/formulaire HTTP/1.1
+content-type: application/json
+
+{
+    "name": "sample",
+    "time": "Wed, 21 Oct 2015 18:27:50 GMT"
+}
