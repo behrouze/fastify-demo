@@ -6,9 +6,17 @@ content-type: application/json
 GET http://127.0.0.1:3000/aSync?toto=toto%20is%20here&age=42 HTTP/1.1
 content-type: application/json
 
+### 
+GET http://127.0.0.1:3000/error-mgmt?toto=toto%20is%20here&age=42 HTTP/1.1
+content-type: application/json
+
+### 
+GET http://127.0.0.1:3000/throw-err?param1=toto&param2=tata HTTP/1.1
+
+### 
+GET http://127.0.0.1:3000/throw-err HTTP/1.1
 
 ###
-
 POST http://127.0.0.1:3000/formulaire HTTP/1.1
 content-type: application/json
 
